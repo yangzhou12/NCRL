@@ -1,7 +1,6 @@
 <!-- # Code for NeurIPS submission (Paper ID 7543) "None Class Ranking Loss for Document-Level Relation Extraction" -->
->📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# None Class Ranking Loss for Document-Level Relation Extraction
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
