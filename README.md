@@ -2,9 +2,11 @@
 
 # None Class Ranking Loss for Document-Level Relation Extraction
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is the implementation of Paper 7543 "None Class Ranking Loss for Document-Level Relation Extraction".
 
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+<!-- [None Class Ranking Loss for Document-Level Relation Extraction](https://arxiv.org/abs/2030.12345).  -->
+
+<!-- >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials -->
 
 ## Requirements
 
