@@ -46,6 +46,8 @@ def train(args, model, train_features, dev_features, test_features):
                     scheduler.step()
                     model.zero_grad()
                     num_steps += 1
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
                 wandb.log({"loss": loss.item()}, step=num_steps)
                 if (step + 1) == len(train_dataloader) - 1 or (args.evaluation_steps > 0 and num_steps % args.evaluation_steps == 0 and step % args.gradient_accumulation_steps == 0):
                     dev_score, dev_output = evaluate(args, model, dev_features, tag="dev")
