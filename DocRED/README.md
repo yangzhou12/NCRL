@@ -16,7 +16,7 @@ This Code is largely adapted from [ATLOP](https://github.com/wzhouad/ATLOP).
 ## Dataset
 The [DocRED](https://www.aclweb.org/anthology/P19-1074/) dataset can be downloaded following the instructions at [link](https://github.com/thunlp/DocRED/tree/master/data). The expected structure of files is:
 ```
-ATLOP
+DocRED
  |-- dataset
  |    |-- docred
  |    |    |-- train_annotated.json        
