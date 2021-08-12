@@ -1,4 +1,4 @@
-# Documen-level Relation Extraction on the DocRED dataset with NCRL
+# Documen-level Relation Extraction with NCRL
 This Code is largely adapted from [ATLOP](https://github.com/wzhouad/ATLOP).
 
 ## Requirements
