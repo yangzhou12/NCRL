@@ -1,4 +1,4 @@
-# Documen-level Relation Extraction with NCRL
+# Documen-Level Relation Extraction with NCRL
 This Code is largely adapted from [ATLOP](https://github.com/wzhouad/ATLOP).
 
 ## Requirements
