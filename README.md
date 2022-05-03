@@ -9,7 +9,7 @@ This repository is the implementation of [None Class Ranking Loss for Document-L
 Please cite the following paper if you find our code is useful. Thanks!
 
 ```
-@inproceedings{yu2021fine,
+@inproceedings{zhou2022none,
   title={None Class Ranking Loss for Document-Level Relation Extraction},
   author={Yang Zhou, Wee Sun Lee},
   booktitle={Proceedings of IJCAI},
