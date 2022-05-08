@@ -36,8 +36,8 @@ class NCRLoss(nn.Module):
         rel_margin = logits[:,1:] - logits[:,0].unsqueeze(1)
         loss = self.compute_CE(rel_margin.float(), labels[:,1:].float())
         
-        if self.isReg:
-            # Logit margin regularization for the none class label
+        if self.isReg: # Enable margin regularization
+            # Logit margin for the none class label
             na_margin = logits[:,0] - logits[:,1:].mean(-1) 
             loss += self.compute_CE(na_margin.float(), labels[:,0].float())
         
@@ -47,7 +47,7 @@ class NCRLoss(nn.Module):
         return loss
 
     def get_label(self, logits, num_labels=-1):
-      """Copied from https://github.com/wzhouad/ATLOP/blob/main/losses.py#L32"""
+        """Copied from https://github.com/wzhouad/ATLOP/blob/main/losses.py#L32"""
         th_logit = logits[:, 0].unsqueeze(1)
         output = torch.zeros_like(logits).to(logits)
         mask = (logits > th_logit)
