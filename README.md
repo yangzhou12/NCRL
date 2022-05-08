@@ -3,6 +3,7 @@
 
 This repository is the implementation of [None Class Ranking Loss for Document-Level Relation Extraction](https://arxiv.org/abs/2205.00476) (IJCAI 2022).
 
+We first release the NCRL loss function. The code for reproducing our experiments will be released soon.
 
 ## Citation
 
